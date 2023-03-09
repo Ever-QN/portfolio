@@ -130,6 +130,14 @@ section p {
     color: #eee;
 }
 
+section#about img {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    width: 250px;
+    height: 250px;
+}
+
 section ul {
     list-style: none;
     display: flex;
