@@ -8,7 +8,7 @@ window.addEventListener("scroll", () => {
     const sectionTop = section.offsetTop + parseInt(getComputedStyle(section).getPropertyValue("scroll-margin-top"));
     const sectionHeight = section.clientHeight;
     
-    if (scrollPosition >= sectionTop - 100 && scrollPosition < sectionTop + sectionHeight - 100) {
+    if (scrollPosition >= sectionTop - 300 && scrollPosition < sectionTop + sectionHeight - 300) {
       navLinks.forEach((navLink) => {
         navLink.classList.remove("active");
       });
