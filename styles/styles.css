@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Add custom styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -11,6 +15,7 @@ body {
     background-color: #222;
     scroll-behavior: smooth;
 }
+
 
 header {
     position: fixed;
@@ -76,6 +81,10 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background-color: #1f6594;
+}
+
+.nav-item.active {
+    text-decoration: underline;
 }
 
 main {
