@@ -14,13 +14,12 @@ body {
 
 header {
     position: fixed;
+    display: flex;
+    justify-content: space-between;
     top: 0;
     left: 0;
     width: 100%;
     height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #2c3e50;
     z-index: 9999;
     padding: 0 2rem;
@@ -35,8 +34,8 @@ header a {
 }
 
 header nav ul {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
 }
 
 header nav ul li {
@@ -46,10 +45,27 @@ header nav ul li {
 
 .header-left-side {
     display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #00ffff;
+    margin: 0;
 }
 
 .header-right-side {
     display: flex;
+    align-items: center;
+}
+
+#contact-header {
+    background-color: darkcyan;
+    animation: shake 0.5s;
+}
+
+#contact-header:hover {
+    background-color: rgb(0, 69, 69);
 }
 
 header nav ul li a {
@@ -59,7 +75,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-color: #2980b9;
+    background-color: #1f6594;
 }
 
 main {
@@ -293,4 +309,3 @@ footer a:hover {
         margin-bottom: 2rem;
     }
 }
-
