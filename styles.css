@@ -5,6 +5,16 @@
 }
 
 /* Add custom styles */
+
+a {
+    text-decoration: none;
+    color: #0161f2;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #eee;
