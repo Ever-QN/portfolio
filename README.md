@@ -9,3 +9,4 @@ As you peruse this portfolio, you'll see that I have experience in a variety of 
 In each project, I strive to create code that is not only functional, but I also try my best to make it maintainable and easy to understand. I believe that well-written code is not just a product of good programming practices, but also an art form.
 
 Thank you for taking the time to view my portfolio. If you have any questions or would like to discuss a potential project, feel free to reach out to me.
+^Not through the website email contact though, I still have to add functionality for that later on
