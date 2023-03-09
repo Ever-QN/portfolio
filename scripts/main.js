@@ -1,24 +1,20 @@
-// Get all section elements
-const sections = document.querySelectorAll('.section');
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("nav ul li a");
 
-// Get all navigation links
-const navLinks = document.querySelectorAll('.nav-item');
-
-// Function to add or remove active class from navigation link
-function updateNav() {
+window.addEventListener("scroll", () => {
+  const scrollPosition = window.pageYOffset;
+  
   sections.forEach((section, index) => {
-    const position = section.offsetTop;
-    const height = section.offsetHeight;
-    if (window.scrollY >= position && window.scrollY < position + height) {
-      navLinks.forEach(navLink => {
-        navLink.classList.remove('active');
+    const sectionTop = section.offsetTop + parseInt(getComputedStyle(section).getPropertyValue("scroll-margin-top"));
+    const sectionHeight = section.clientHeight;
+    
+    if (scrollPosition >= sectionTop - 100 && scrollPosition < sectionTop + sectionHeight - 100) {
+      navLinks.forEach((navLink) => {
+        navLink.classList.remove("active");
       });
-      navLinks[index].classList.add('active');
-    } else {
-      navLinks[index].classList.remove('active');
+
+      const currentNavLink = navLinks[index];
+      currentNavLink.classList.add("active");
     }
   });
-}
-
-// Add event listener for scroll
-window.addEventListener('scroll', updateNav);
+});
