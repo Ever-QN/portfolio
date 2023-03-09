@@ -1,6 +1,7 @@
 # Quynh's Portfolio
 
-**WIP! WIP! WIP!**
+**WIP! WIP! WIP!**<br>
+**NOT MOBILE FRIENDLY YET!**
 
 Hello there, and welcome to my portfolio! My name is Quynh, and I'm a programmer with a passion for creating solutions to complex problems. In this portfolio, you'll find examples of my work, ranging from small scripts to (eventually) larger-scale projects.
 
