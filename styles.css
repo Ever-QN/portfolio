@@ -6,13 +6,22 @@
 
 /* Add custom styles */
 
-a {
+#projects a {
     text-decoration: none;
     color: #0161f2;
 }
 
-a:hover {
+#projects a:hover {
     color: lightskyblue;
+}
+
+footer a {
+    color: #eee;
+}
+
+footer a:hover {
+    font-size: 25px;
+    transition: font-size 0.5s;
 }
 
 body {
