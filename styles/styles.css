@@ -276,41 +276,6 @@ footer a:hover {
     transition: font-size 0.5s;
 }
 
-
-/* Animations */
-.fade-up {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
-}
-
-.fade-up.active {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.slide-left {
-    opacity: 0;
-    transform: translateX(-50px);
-    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
-}
-
-.slide-left.active {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-.slide-right {
-    opacity: 0;
-    transform: translateX(50px);
-    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
-}
-
-.slide-right.active {
-    opacity: 1;
-    transform: translateX(0);
-}
-
 /* Media Queries */
 @media only screen and (max-width: 768px) {
     #projects li {
