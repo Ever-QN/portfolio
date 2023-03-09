@@ -5,25 +5,6 @@
 }
 
 /* Add custom styles */
-
-#projects a {
-    text-decoration: none;
-    color: #0161f2;
-}
-
-#projects a:hover {
-    color: lightskyblue;
-}
-
-footer a {
-    color: #eee;
-}
-
-footer a:hover {
-    font-size: 25px;
-    transition: font-size 0.5s;
-}
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #eee;
@@ -138,6 +119,16 @@ section li p {
     color: #eee;
 }
 
+#projects a {
+    text-decoration: none;
+    color: #0161f2;
+}
+
+#projects a:hover {
+    color: lightskyblue;
+}
+
+
 /* Contact Section */
 #contact {
     background-color: #333;
@@ -207,6 +198,16 @@ footer p {
     font-size: 1.4rem;
     margin: 0;
 }
+
+footer a {
+    color: #eee;
+}
+
+footer a:hover {
+    font-size: 25px;
+    transition: font-size 0.5s;
+}
+
 
 /* Animations */
 .fade-up {
