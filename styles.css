@@ -4,36 +4,12 @@
     box-sizing: border-box;
 }
 
-:root {
-    --bg-color: #fff;
-    --text-color: #333;
-}
-
+/* Add custom styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #333;
+    background-color: #f4f4f4;
     scroll-behavior: smooth;
-}
-
-body.dark-mode {
-    --bg-color: #333;
-    --text-color: #fff;
-}
-
-button {
-    background-color: var(--text-color);
-    color: var(--bg-color);
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button.dark-mode {
-    background-color: var(--bg-color);
-    color: var(--text-color);
 }
 
 header {
@@ -262,3 +238,4 @@ footer p {
         margin-bottom: 2rem;
     }
 }
+
