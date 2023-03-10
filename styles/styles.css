@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     top: 0;
-    width: 100%;
+    min-width: 100%;
     height: auto;
     background-color: #2c3e50;
     z-index: 9999;
@@ -84,11 +84,6 @@ header nav ul li a:hover {
 
 .nav-item.active {
     text-decoration: underline;
-}
-
-.nav-item {
-    display: block;
-    padding: 10px;
 }
 
 main {
@@ -229,6 +224,7 @@ section li p {
     border-radius: 5px;
     border: none;
     background-color: rgb(115, 115, 115);
+    color: rgb(189, 188, 188);
 }
 
 #contact textarea {
@@ -278,21 +274,8 @@ footer a:hover {
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
-    #projects li {
-        margin-bottom: 4rem;
+
+    section li {
+        min-width: calc(33.33% - 1rem);
     }
 } 
-
-@media only screen and (max-width: 480px) {
-    #about img {
-        width: 100%;
-    }
-
-    #projects li {
-        flex-direction: column;
-    }
-
-    #projects li img {
-        margin-bottom: 2rem;
-    }
-}
