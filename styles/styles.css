@@ -273,28 +273,42 @@ footer a:hover {
 }
 
 /* Media Queries */
+
 @media screen and (max-width: 600px) {
     section li {
         min-width: calc(33.33% - 1rem);
         box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
         border: 1px solid rgb(115, 113, 113);
     }
-    /* hide the navigation links */
+
     .header-right-side nav {
         display: none;
     }
-    /* show the menu button */
+
     .header-right-side {
         display: flex;
         justify-content: flex-end;
     }
+
     .header-right-side .menu-button {
+        color: white;
         background: none;
         border: none;
         font-size: 2em;
         padding: 0.5em;
         cursor: pointer;
     }
+
+    .menu-button:hover {
+        transform: scale(1.25) perspective(1px);
+        transition: transform 0.5s;
+    }
+
+    /* .menu-button: {
+        transform: scale(1.25) perspective(1px);
+        transition: transform 0.5s;
+    } THIS SHOULD BE USED FOR ON BUTTON CLICK ANIMATION, HOVER ABOVE SHOULD BE REMOVED SINCE YOU CAN'T HOVER ON MOBILE*/ 
+
     #menu-button {
         display: block;
     }
@@ -306,6 +320,7 @@ footer a:hover {
         box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
         /* border: 1px solid rgb(115, 113, 113); */
     }
+
     .menu-button {
         display: none;
         background-color: #333;
