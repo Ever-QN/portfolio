@@ -279,6 +279,25 @@ footer a:hover {
         box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
         border: 1px solid rgb(115, 113, 113);
     }
+    /* hide the navigation links */
+    .header-right-side nav {
+        display: none;
+    }
+    /* show the menu button */
+    .header-right-side {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .header-right-side .menu-button {
+        background: none;
+        border: none;
+        font-size: 2em;
+        padding: 0.5em;
+        cursor: pointer;
+    }
+    #menu-button {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -286,5 +305,14 @@ footer a:hover {
         width: calc(33.33% - 1rem);
         box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
         /* border: 1px solid rgb(115, 113, 113); */
+    }
+    .menu-button {
+        display: none;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        font-size: 24px;
+        padding: 10px 20px;
+        cursor: pointer;
     }
 }
