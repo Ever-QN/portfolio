@@ -273,7 +273,7 @@ footer a:hover {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 600px) {
+@media only screen and (orientation: landscape) {
     section li {
         min-width: calc(33.33% - 1rem);
         box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
